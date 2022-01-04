@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const configValue: string = process.env.BASE_API as string;
+
+console.log('Hello', configValue);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
